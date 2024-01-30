@@ -1,0 +1,1965 @@
+reading route ID : 0
+requesting time : 81
+writing time : 65
+total req and write time : 255878
+total time : 255878
+reading route ID : 0
+requesting time : 91
+writing time : 61
+total req and write time : 256239
+total time : 256239
+reading route ID : 1
+requesting time : 79
+writing time : 61
+total req and write time : 256235
+total time : 256236
+reading route ID : 0
+requesting time : 83
+writing time : 63
+total req and write time : 256429
+total time : 256429
+reading route ID : 0
+requesting time : 88
+writing time : 60
+total req and write time : 256273
+total time : 256273
+reading route ID : 0
+requesting time : 86
+writing time : 61
+total req and write time : 256323
+total time : 256323
+reading route ID : 0
+requesting time : 87
+writing time : 59
+total req and write time : 256235
+total time : 256235
+reading route ID : 0
+requesting time : 88
+writing time : 65
+total req and write time : 255793
+total time : 255793
+reading route ID : 0
+requesting time : 87
+writing time : 62
+total req and write time : 256952
+total time : 256952
+reading route ID : 0
+requesting time : 86
+writing time : 61
+total req and write time : 256514
+total time : 256514
+reading route ID : 0
+requesting time : 87
+writing time : 58
+total req and write time : 256743
+total time : 256743
+reading route ID : 0
+requesting time : 82
+writing time : 65
+total req and write time : 256327
+total time : 256327
+reading route ID : 0
+requesting time : 79
+writing time : 60
+total req and write time : 256050
+total time : 256050
+reading route ID : 0
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 285, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 247, in save_data
+    wr.writerow([_date.month, output_time , output_route_id, item['stId'], item['rerdie_Num1'], isHoliday,prev,next]) 
+KeyError: 'rerdie_Num1'
+reading route ID : 0
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 285, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 247, in save_data
+    wr.writerow([_date.month, output_time , output_route_id, item['stId'], item['rerdie_Num1'], isHoliday,prev,next]) 
+KeyError: 'rerdie_Num1'
+reading route ID : 0
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 285, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 247, in save_data
+    wr.writerow([_date.month, output_time , output_route_id, item['stId'], item['rerdie_Num1'], isHoliday,prev,next]) 
+KeyError: 'rerdie_Num1'
+reading route ID : 1
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 285, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 247, in save_data
+    wr.writerow([_date.month, output_time , output_route_id, item['stId'], item['rerdie_Num1'], isHoliday,prev,next]) 
+KeyError: 'rerdie_Num1'
+reading route ID : 1
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 285, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 247, in save_data
+    wr.writerow([_date.month, output_time , output_route_id, item['stId'], item['rerdie_Num1'], isHoliday,prev,next]) 
+KeyError: 'rerdie_Num1'
+[OrderedDict([('dateKind', '01'), ('dateName', '1월1일'), ('isHoliday', 'Y'), ('locdate', '20230101'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20230121'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20230122'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20230123'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일'), ('isHoliday', 'Y'), ('locdate', '20230124'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '삼일절'), ('isHoliday', 'Y'), ('locdate', '20230301'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '어린이날'), ('isHoliday', 'Y'), ('locdate', '20230505'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '부처님오신날'), ('isHoliday', 'Y'), ('locdate', '20230527'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일'), ('isHoliday', 'Y'), ('locdate', '20230529'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '현충일'), ('isHoliday', 'Y'), ('locdate', '20230606'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '광복절'), ('isHoliday', 'Y'), ('locdate', '20230815'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20230928'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20230929'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20230930'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '임시공휴일'), ('isHoliday', 'Y'), ('locdate', '20231002'), ('seq', '2')]), OrderedDict([('dateKind', '01'), ('dateName', '개천절'), ('isHoliday', 'Y'), ('locdate', '20231003'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '한글날'), ('isHoliday', 'Y'), ('locdate', '20231009'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '기독탄신일'), ('isHoliday', 'Y'), ('locdate', '20231225'), ('seq', '1')])]
+[OrderedDict([('dateKind', '01'), ('dateName', '1월1일'), ('isHoliday', 'Y'), ('locdate', '20240101'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20240209'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20240210'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20240211'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일(설날)'), ('isHoliday', 'Y'), ('locdate', '20240212'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '삼일절'), ('isHoliday', 'Y'), ('locdate', '20240301'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '국회의원선거'), ('isHoliday', 'Y'), ('locdate', '20240410'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '어린이날'), ('isHoliday', 'Y'), ('locdate', '20240505'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일(어린이날)'), ('isHoliday', 'Y'), ('locdate', '20240506'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '부처님오신날'), ('isHoliday', 'Y'), ('locdate', '20240515'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '현충일'), ('isHoliday', 'Y'), ('locdate', '20240606'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '광복절'), ('isHoliday', 'Y'), ('locdate', '20240815'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20240916'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20240917'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20240918'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '개천절'), ('isHoliday', 'Y'), ('locdate', '20241003'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '한글날'), ('isHoliday', 'Y'), ('locdate', '20241009'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '기독탄신일'), ('isHoliday', 'Y'), ('locdate', '20241225'), ('seq', '1')])]
+[OrderedDict([('dateKind', '01'), ('dateName', '1월1일'), ('isHoliday', 'Y'), ('locdate', '20250101'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20250128'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20250129'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '설날'), ('isHoliday', 'Y'), ('locdate', '20250130'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '삼일절'), ('isHoliday', 'Y'), ('locdate', '20250301'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일'), ('isHoliday', 'Y'), ('locdate', '20250303'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '어린이날'), ('isHoliday', 'Y'), ('locdate', '20250505'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '부처님오신날'), ('isHoliday', 'Y'), ('locdate', '20250505'), ('seq', '2')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일'), ('isHoliday', 'Y'), ('locdate', '20250506'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '현충일'), ('isHoliday', 'Y'), ('locdate', '20250606'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '광복절'), ('isHoliday', 'Y'), ('locdate', '20250815'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '개천절'), ('isHoliday', 'Y'), ('locdate', '20251003'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20251005'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20251006'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '추석'), ('isHoliday', 'Y'), ('locdate', '20251007'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '대체공휴일'), ('isHoliday', 'Y'), ('locdate', '20251008'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '한글날'), ('isHoliday', 'Y'), ('locdate', '20251009'), ('seq', '1')]), OrderedDict([('dateKind', '01'), ('dateName', '기독탄신일'), ('isHoliday', 'Y'), ('locdate', '20251225'), ('seq', '1')])]
+[2024-01-18 21:19:18.700101] data scraping complete!
+total time : 262609
+
+[2024-01-18 21:53:35.799927] data scraping complete!
+total time : 255922
+
+[2024-01-18 22:27:54.376625] data scraping complete!
+total time : 257398
+
+[2024-01-18 23:02:15.139147] data scraping complete!
+total time : 259581
+
+[2024-01-18 23:36:32.203769] data scraping complete!
+total time : 255900
+
+[2024-01-19 00:10:49.297200] data scraping complete!
+total time : 255910
+
+[2024-01-19 00:45:05.641710] data scraping complete!
+total time : 255170
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 194, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-19 01:56:00.562537] data scraping complete!
+total time : 255017
+
+[2024-01-19 02:30:17.231953] data scraping complete!
+total time : 255495
+
+[2024-01-19 03:04:33.397719] data scraping complete!
+total time : 254991
+
+[2024-01-19 03:38:50.017646] data scraping complete!
+total time : 255430
+
+[2024-01-19 04:13:07.633996] data scraping complete!
+total time : 256432
+
+[2024-01-19 04:47:25.167320] data scraping complete!
+total time : 256361
+
+[2024-01-19 05:21:43.224005] data scraping complete!
+total time : 256882
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 194, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 52, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-19 06:32:38.231182] data scraping complete!
+total time : 256753
+
+[2024-01-19 07:06:56.013403] data scraping complete!
+total time : 256614
+
+[2024-01-19 07:41:14.844313] data scraping complete!
+total time : 257642
+
+[2024-01-19 08:15:32.556659] data scraping complete!
+total time : 256526
+
+[2024-01-19 08:49:50.570220] data scraping complete!
+total time : 256832
+
+[2024-01-19 09:24:08.249214] data scraping complete!
+total time : 256510
+
+[2024-01-19 09:58:26.350373] data scraping complete!
+total time : 256932
+
+[2024-01-19 10:32:44.236604] data scraping complete!
+total time : 256718
+
+[2024-01-19 11:07:01.889979] data scraping complete!
+total time : 256483
+
+[2024-01-19 11:41:19.221677] data scraping complete!
+total time : 256148
+
+[2024-01-19 12:15:36.721121] data scraping complete!
+total time : 256338
+
+[2024-01-19 12:49:54.011130] data scraping complete!
+total time : 256106
+
+[2024-01-19 13:24:12.950909] data scraping complete!
+total time : 257764
+
+[2024-01-19 13:58:31.623154] data scraping complete!
+total time : 257575
+
+[2024-01-19 14:32:49.804004] data scraping complete!
+total time : 256898
+
+[2024-01-19 15:07:07.418766] data scraping complete!
+total time : 256426
+
+[2024-01-19 15:41:24.831325] data scraping complete!
+total time : 256245
+
+[2024-01-19 16:15:42.483037] data scraping complete!
+total time : 256489
+
+[2024-01-19 16:50:00.434035] data scraping complete!
+total time : 256776
+
+[2024-01-19 17:24:18.052068] data scraping complete!
+total time : 256425
+
+[2024-01-19 17:58:35.896230] data scraping complete!
+total time : 256662
+
+[2024-01-19 18:32:53.404593] data scraping complete!
+total time : 256329
+
+[2024-01-19 19:07:11.014313] data scraping complete!
+total time : 256428
+
+[2024-01-19 19:41:29.084197] data scraping complete!
+total time : 256891
+
+[2024-01-19 20:15:46.967343] data scraping complete!
+total time : 256708
+
+[2024-01-19 20:50:04.517284] data scraping complete!
+total time : 256367
+
+[2024-01-19 21:24:22.638302] data scraping complete!
+total time : 256955
+
+[2024-01-19 21:58:40.560455] data scraping complete!
+total time : 256747
+
+[2024-01-19 22:32:59.771595] data scraping complete!
+total time : 258037
+
+[2024-01-19 23:07:17.777220] data scraping complete!
+total time : 256818
+
+[2024-01-19 23:41:35.911660] data scraping complete!
+total time : 256981
+
+[2024-01-20 00:15:52.945045] data scraping complete!
+total time : 255870
+
+[2024-01-20 00:50:09.551094] data scraping complete!
+total time : 255431
+
+[2024-01-20 01:24:25.467837] data scraping complete!
+total time : 254709
+
+[2024-01-20 01:58:41.868076] data scraping complete!
+total time : 255203
+
+[2024-01-20 02:32:59.094930] data scraping complete!
+total time : 255718
+
+[2024-01-20 03:07:15.968361] data scraping complete!
+total time : 255713
+
+[2024-01-20 03:41:32.834535] data scraping complete!
+total time : 255707
+
+[2024-01-20 04:15:50.648586] data scraping complete!
+total time : 256648
+
+[2024-01-20 04:50:08.764239] data scraping complete!
+total time : 256928
+
+[2024-01-20 05:24:26.308590] data scraping complete!
+total time : 256370
+
+[2024-01-20 05:58:43.996237] data scraping complete!
+total time : 256528
+
+[2024-01-20 06:33:01.555502] data scraping complete!
+total time : 256371
+
+[2024-01-20 07:07:18.968815] data scraping complete!
+total time : 256246
+
+[2024-01-20 07:41:36.599687] data scraping complete!
+total time : 256455
+
+[2024-01-20 08:15:54.477363] data scraping complete!
+total time : 256705
+
+[2024-01-20 08:50:12.151295] data scraping complete!
+total time : 256502
+
+[2024-01-20 09:24:30.046222] data scraping complete!
+total time : 256728
+
+[2024-01-20 09:58:47.852433] data scraping complete!
+total time : 256646
+
+[2024-01-20 10:33:05.768341] data scraping complete!
+total time : 256729
+
+[2024-01-20 11:07:23.736003] data scraping complete!
+total time : 256789
+
+[2024-01-20 11:41:41.647754] data scraping complete!
+total time : 256744
+
+[2024-01-20 12:15:59.346094] data scraping complete!
+total time : 256527
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 194, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 54, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 136, in save_data
+    for item in data['ServiceResult']['msgBody']['itemList']:
+TypeError: 'NoneType' object is not subscriptable
+[2024-01-20 13:20:45.676109] data scraping complete!
+total time : 256297
+
+[2024-01-20 13:55:03.428033] data scraping complete!
+total time : 256572
+
+[2024-01-20 14:29:21.562551] data scraping complete!
+total time : 256944
+
+[2024-01-20 15:03:39.625513] data scraping complete!
+total time : 256892
+
+[2024-01-20 15:37:57.642128] data scraping complete!
+total time : 256835
+
+[2024-01-20 16:12:15.459802] data scraping complete!
+total time : 256634
+
+[2024-01-20 16:46:33.341793] data scraping complete!
+total time : 256707
+
+[2024-01-20 17:20:51.279212] data scraping complete!
+total time : 256762
+
+[2024-01-20 17:55:09.432136] data scraping complete!
+total time : 256971
+
+[2024-01-20 18:29:27.342758] data scraping complete!
+total time : 256741
+
+[2024-01-20 19:03:45.417267] data scraping complete!
+total time : 256921
+
+[2024-01-20 19:38:03.188374] data scraping complete!
+total time : 256615
+
+[2024-01-20 20:12:21.775318] data scraping complete!
+total time : 257400
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 194, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 54, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 136, in save_data
+    for item in data['ServiceResult']['msgBody']['itemList']:
+TypeError: 'NoneType' object is not subscriptable
+[2024-01-20 21:19:22.455446] data scraping complete!
+total time : 256793
+
+[2024-01-20 21:53:40.032327] data scraping complete!
+total time : 256375
+
+[2024-01-20 22:27:57.935049] data scraping complete!
+total time : 256729
+
+[2024-01-20 23:02:17.452078] data scraping complete!
+total time : 258326
+
+[2024-01-20 23:36:35.355341] data scraping complete!
+total time : 256721
+
+[2024-01-21 00:10:52.444632] data scraping complete!
+total time : 255928
+
+[2024-01-21 00:45:08.406182] data scraping complete!
+total time : 254784
+
+[2024-01-21 01:19:25.544081] data scraping complete!
+total time : 255966
+
+[2024-01-21 01:53:42.468332] data scraping complete!
+total time : 255730
+
+[2024-01-21 02:28:05.557413] data scraping complete!
+total time : 255989
+
+[2024-01-21 03:02:21.795629] data scraping complete!
+total time : 255051
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 194, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 54, in api_request
+    save_data(response, i, wr)
+  File "wc_seoul_bus.py", line 136, in save_data
+    for item in data['ServiceResult']['msgBody']['itemList']:
+TypeError: 'NoneType' object is not subscriptable
+[2024-01-21 04:09:22.177748] data scraping complete!
+total time : 256078
+
+[2024-01-21 04:43:40.237462] data scraping complete!
+total time : 256878
+
+[2024-01-21 05:17:58.811530] data scraping complete!
+total time : 257409
+
+[2024-01-21 05:52:16.890918] data scraping complete!
+total time : 256916
+
+[2024-01-21 06:26:34.810308] data scraping complete!
+total time : 256741
+
+[2024-01-21 07:00:52.281404] data scraping complete!
+total time : 256306
+
+[2024-01-21 07:35:10.043620] data scraping complete!
+total time : 256602
+
+[2024-01-21 08:09:27.576705] data scraping complete!
+total time : 256369
+
+[2024-01-21 08:43:45.582565] data scraping complete!
+total time : 256821
+
+[2024-01-21 09:18:03.087284] data scraping complete!
+total time : 256314
+
+[2024-01-21 09:52:20.765848] data scraping complete!
+total time : 256508
+
+[2024-01-21 10:26:38.277133] data scraping complete!
+total time : 256337
+
+[2024-01-21 11:00:56.132155] data scraping complete!
+total time : 256677
+
+[2024-01-21 11:35:13.872685] data scraping complete!
+total time : 256565
+
+[2024-01-21 12:09:31.394701] data scraping complete!
+total time : 256360
+
+[2024-01-21 17:18:20.891721] data scraping complete!
+total time : 258118
+
+[2024-01-21 17:52:38.091005] data scraping complete!
+total time : 256026
+
+[2024-01-21 18:26:55.836329] data scraping complete!
+total time : 256572
+
+[2024-01-21 19:01:13.365430] data scraping complete!
+total time : 256345
+
+[2024-01-21 19:35:30.975856] data scraping complete!
+total time : 256429
+
+[2024-01-21 20:09:49.043370] data scraping complete!
+total time : 256897
+
+[2024-01-21 20:44:08.092325] data scraping complete!
+total time : 257882
+
+[2024-01-21 21:18:27.094354] data scraping complete!
+total time : 257821
+
+[2024-01-21 21:52:44.885630] data scraping complete!
+total time : 256630
+
+[2024-01-21 22:27:02.773180] data scraping complete!
+total time : 256701
+
+[2024-01-21 23:01:23.362733] data scraping complete!
+total time : 259430
+
+[2024-01-21 23:35:40.588013] data scraping complete!
+total time : 256046
+
+[2024-01-22 00:09:57.684428] data scraping complete!
+total time : 255915
+
+[2024-01-22 00:44:14.932157] data scraping complete!
+total time : 256071
+
+[2024-01-22 01:18:31.794677] data scraping complete!
+total time : 255700
+
+[2024-01-22 01:52:48.058773] data scraping complete!
+total time : 255095
+
+[2024-01-22 02:27:04.274548] data scraping complete!
+total time : 254819
+
+[2024-01-22 03:01:20.759941] data scraping complete!
+total time : 255311
+
+[2024-01-22 03:35:38.125215] data scraping complete!
+total time : 256183
+
+[2024-01-22 04:09:55.229646] data scraping complete!
+total time : 255938
+
+[2024-01-22 04:44:13.120734] data scraping complete!
+total time : 256713
+
+[2024-01-22 05:18:31.124412] data scraping complete!
+total time : 256824
+
+[2024-01-22 05:52:48.655035] data scraping complete!
+total time : 256349
+
+[2024-01-22 06:27:07.608371] data scraping complete!
+total time : 257756
+
+[2024-01-22 07:01:26.377791] data scraping complete!
+total time : 257580
+
+[2024-01-22 07:35:44.454258] data scraping complete!
+total time : 256907
+
+[2024-01-22 08:10:02.152577] data scraping complete!
+total time : 256511
+
+[2024-01-22 08:44:20.729205] data scraping complete!
+total time : 257389
+
+[2024-01-22 09:18:39.264131] data scraping complete!
+total time : 257344
+
+[2024-01-22 09:52:56.904572] data scraping complete!
+total time : 256467
+
+[2024-01-22 10:27:14.970757] data scraping complete!
+total time : 256897
+
+[2024-01-22 11:01:33.122235] data scraping complete!
+total time : 256986
+
+[2024-01-22 11:35:51.010486] data scraping complete!
+total time : 256708
+
+[2024-01-22 12:10:09.110255] data scraping complete!
+total time : 256913
+
+[2024-01-22 12:44:27.092557] data scraping complete!
+total time : 256816
+
+[2024-01-22 13:18:44.653030] data scraping complete!
+total time : 256398
+
+[2024-01-22 13:53:03.155751] data scraping complete!
+total time : 257323
+
+[2024-01-22 14:27:20.900936] data scraping complete!
+total time : 256576
+
+[2024-01-22 15:01:38.933918] data scraping complete!
+total time : 256866
+
+[2024-01-22 15:35:56.981981] data scraping complete!
+total time : 256868
+
+[2024-01-22 16:10:14.857844] data scraping complete!
+total time : 256710
+
+[2024-01-22 16:44:32.519210] data scraping complete!
+total time : 256481
+
+[2024-01-22 17:18:50.502782] data scraping complete!
+total time : 256823
+
+[2024-01-22 17:53:08.257075] data scraping complete!
+total time : 256589
+
+[2024-01-22 18:27:26.700427] data scraping complete!
+total time : 257287
+
+[2024-01-22 19:01:45.566088] data scraping complete!
+total time : 257681
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-22 19:36:03.301586] data scraping complete!
+total time : 256559
+
+[2024-01-22 20:10:21.573127] data scraping complete!
+total time : 257095
+
+[2024-01-22 20:44:38.733091] data scraping complete!
+total time : 255986
+
+[2024-01-22 21:18:55.929264] data scraping complete!
+total time : 256021
+
+[2024-01-22 21:53:13.848576] data scraping complete!
+total time : 256733
+
+[2024-01-22 22:27:31.098479] data scraping complete!
+total time : 256066
+
+[2024-01-22 23:01:50.966396] data scraping complete!
+total time : 258671
+
+[2024-01-22 23:36:08.086391] data scraping complete!
+total time : 255943
+
+[2024-01-23 00:10:24.710489] data scraping complete!
+total time : 255446
+
+[2024-01-23 00:44:40.881897] data scraping complete!
+total time : 254998
+
+[2024-01-23 01:18:57.354502] data scraping complete!
+total time : 255285
+
+[2024-01-23 01:53:14.260142] data scraping complete!
+total time : 255738
+
+[2024-01-23 02:27:30.904488] data scraping complete!
+total time : 255456
+
+[2024-01-23 03:01:47.241601] data scraping complete!
+total time : 255102
+
+[2024-01-23 03:36:03.797814] data scraping complete!
+total time : 255363
+
+[2024-01-23 04:10:20.266118] data scraping complete!
+total time : 255284
+
+[2024-01-23 04:44:38.730529] data scraping complete!
+total time : 257292
+
+[2024-01-23 05:18:56.821341] data scraping complete!
+total time : 256914
+
+[2024-01-23 05:53:14.434666] data scraping complete!
+total time : 256453
+
+[2024-01-23 06:27:32.347315] data scraping complete!
+total time : 256742
+
+[2024-01-23 07:01:49.999529] data scraping complete!
+total time : 256483
+
+[2024-01-23 07:36:08.066608] data scraping complete!
+total time : 256906
+
+[2024-01-23 08:10:25.891498] data scraping complete!
+total time : 256653
+
+[2024-01-23 08:44:48.411101] data scraping complete!
+total time : 256385
+
+[2024-01-23 09:19:06.126301] data scraping complete!
+total time : 256524
+
+[2024-01-23 09:53:23.935606] data scraping complete!
+total time : 256642
+
+[2024-01-23 10:27:41.417107] data scraping complete!
+total time : 256291
+
+[2024-01-23 11:01:58.840564] data scraping complete!
+total time : 256238
+
+[2024-01-23 11:36:16.278932] data scraping complete!
+total time : 256249
+
+[2024-01-23 12:10:33.340380] data scraping complete!
+total time : 255880
+
+[2024-01-23 12:44:50.417461] data scraping complete!
+total time : 255891
+
+[2024-01-23 13:19:07.897133] data scraping complete!
+total time : 256315
+
+[2024-01-23 13:53:25.430084] data scraping complete!
+total time : 256365
+
+[2024-01-23 14:27:42.889757] data scraping complete!
+total time : 256167
+
+[2024-01-23 15:02:00.483780] data scraping complete!
+total time : 256367
+
+[2024-01-23 15:36:17.290552] data scraping complete!
+total time : 255629
+
+[2024-01-23 16:10:34.735245] data scraping complete!
+total time : 256270
+
+[2024-01-23 16:44:52.052344] data scraping complete!
+total time : 256152
+
+[2024-01-23 17:19:09.098040] data scraping complete!
+total time : 255863
+
+[2024-01-23 17:53:26.382859] data scraping complete!
+total time : 256124
+
+[2024-01-23 18:27:47.003542] data scraping complete!
+total time : 259434
+
+[2024-01-23 19:02:05.263048] data scraping complete!
+total time : 257094
+
+[2024-01-23 19:36:22.591397] data scraping complete!
+total time : 256167
+
+[2024-01-23 20:10:39.835649] data scraping complete!
+total time : 256070
+
+[2024-01-23 20:44:57.418407] data scraping complete!
+total time : 256433
+
+[2024-01-23 21:19:14.809841] data scraping complete!
+total time : 256213
+
+[2024-01-23 21:53:32.242529] data scraping complete!
+total time : 256268
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 199, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 53, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-23 23:01:01.114472] data scraping complete!
+total time : 256683
+
+[2024-01-23 23:35:18.271248] data scraping complete!
+total time : 255980
+
+[2024-01-24 00:09:35.920495] data scraping complete!
+total time : 256458
+
+[2024-01-24 00:43:52.361189] data scraping complete!
+total time : 255283
+
+[2024-01-24 01:18:09.005797] data scraping complete!
+total time : 255478
+
+[2024-01-24 01:52:26.286183] data scraping complete!
+total time : 256104
+
+[2024-01-24 02:26:42.664036] data scraping complete!
+total time : 255223
+
+[2024-01-24 03:00:59.062188] data scraping complete!
+total time : 255232
+
+[2024-01-24 03:35:15.600830] data scraping complete!
+total time : 255379
+
+[2024-01-24 04:09:33.113436] data scraping complete!
+total time : 256351
+
+[2024-01-24 04:43:50.520897] data scraping complete!
+total time : 256226
+
+[2024-01-24 05:18:08.230606] data scraping complete!
+total time : 256529
+
+[2024-01-24 05:52:26.307528] data scraping complete!
+total time : 256910
+
+[2024-01-24 06:26:44.739282] data scraping complete!
+total time : 257257
+
+[2024-01-24 07:01:02.239641] data scraping complete!
+total time : 256318
+
+[2024-01-24 07:35:19.889974] data scraping complete!
+total time : 256480
+
+[2024-01-24 08:09:37.791644] data scraping complete!
+total time : 256745
+
+[2024-01-24 08:43:55.675333] data scraping complete!
+total time : 256713
+
+[2024-01-24 09:18:13.127313] data scraping complete!
+total time : 256288
+
+[2024-01-24 09:52:31.014934] data scraping complete!
+total time : 256736
+
+[2024-01-24 10:26:48.681882] data scraping complete!
+total time : 256523
+
+[2024-01-24 11:01:06.468030] data scraping complete!
+total time : 256630
+
+[2024-01-24 11:35:24.412893] data scraping complete!
+total time : 256780
+
+[2024-01-24 12:09:42.051390] data scraping complete!
+total time : 256488
+
+[2024-01-24 12:44:00.092586] data scraping complete!
+total time : 256871
+
+[2024-01-24 13:18:17.385761] data scraping complete!
+total time : 256111
+
+[2024-01-24 13:52:34.872073] data scraping complete!
+total time : 256314
+
+[2024-01-24 14:26:52.728581] data scraping complete!
+total time : 256688
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-24 15:01:10.618385] data scraping complete!
+total time : 256710
+
+[2024-01-24 15:35:27.820595] data scraping complete!
+total time : 256040
+
+[2024-01-24 16:09:45.337335] data scraping complete!
+total time : 256336
+
+[2024-01-24 16:44:02.906321] data scraping complete!
+total time : 256381
+
+[2024-01-24 17:18:20.450392] data scraping complete!
+total time : 256374
+
+[2024-01-24 17:52:38.456225] data scraping complete!
+total time : 256857
+
+[2024-01-24 18:26:56.906132] data scraping complete!
+total time : 257269
+
+[2024-01-24 19:01:14.325202] data scraping complete!
+total time : 256243
+
+[2024-01-24 19:35:32.033100] data scraping complete!
+total time : 256487
+
+[2024-01-24 20:09:50.458975] data scraping complete!
+total time : 257258
+
+[2024-01-24 20:44:08.797356] data scraping complete!
+total time : 257163
+
+[2024-01-24 21:18:26.545351] data scraping complete!
+total time : 256566
+
+[2024-01-24 21:52:44.532369] data scraping complete!
+total time : 256826
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 199, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 53, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-24 23:02:09.001995] data scraping complete!
+total time : 256596
+
+[2024-01-24 23:36:26.599224] data scraping complete!
+total time : 256415
+
+[2024-01-25 00:10:44.442042] data scraping complete!
+total time : 256665
+
+[2024-01-25 00:45:01.297393] data scraping complete!
+total time : 255680
+
+[2024-01-25 01:19:17.731629] data scraping complete!
+total time : 255259
+
+[2024-01-25 01:53:34.624417] data scraping complete!
+total time : 255745
+
+[2024-01-25 02:27:51.636726] data scraping complete!
+total time : 255867
+
+[2024-01-25 03:02:08.216606] data scraping complete!
+total time : 255254
+
+[2024-01-25 03:36:25.586462] data scraping complete!
+total time : 256056
+
+[2024-01-25 04:10:43.059082] data scraping complete!
+total time : 256150
+
+[2024-01-25 04:45:00.801793] data scraping complete!
+total time : 256570
+
+[2024-01-25 05:19:17.915589] data scraping complete!
+total time : 255952
+
+[2024-01-25 05:53:35.691878] data scraping complete!
+total time : 256638
+
+[2024-01-25 06:27:53.635200] data scraping complete!
+total time : 256790
+
+[2024-01-25 07:02:11.974867] data scraping complete!
+total time : 257175
+
+[2024-01-25 07:36:29.538884] data scraping complete!
+total time : 256391
+
+[2024-01-25 08:10:47.287265] data scraping complete!
+total time : 256585
+
+[2024-01-25 08:45:05.753043] data scraping complete!
+total time : 257306
+
+[2024-01-25 09:19:24.046534] data scraping complete!
+total time : 257145
+
+[2024-01-25 09:53:41.713539] data scraping complete!
+total time : 256511
+
+[2024-01-25 10:27:59.512987] data scraping complete!
+total time : 256638
+
+[2024-01-25 11:02:17.520419] data scraping complete!
+total time : 256847
+
+[2024-01-25 11:36:34.843137] data scraping complete!
+total time : 256176
+
+[2024-01-25 12:10:51.806008] data scraping complete!
+total time : 255781
+
+[2024-01-25 12:45:09.403259] data scraping complete!
+total time : 256414
+
+[2024-01-25 13:19:27.032472] data scraping complete!
+total time : 256453
+
+[2024-01-25 13:53:44.335674] data scraping complete!
+total time : 256113
+
+[2024-01-25 14:28:01.668599] data scraping complete!
+total time : 256152
+
+[2024-01-25 15:02:19.384090] data scraping complete!
+total time : 256551
+
+[2024-01-25 15:36:36.664095] data scraping complete!
+total time : 256112
+
+[2024-01-25 16:10:54.191855] data scraping complete!
+total time : 256377
+
+[2024-01-25 16:45:11.646685] data scraping complete!
+total time : 256278
+
+[2024-01-25 17:19:29.255831] data scraping complete!
+total time : 256422
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-25 17:53:47.202083] data scraping complete!
+total time : 256783
+
+[2024-01-25 18:28:04.666827] data scraping complete!
+total time : 256307
+
+[2024-01-25 19:02:23.049131] data scraping complete!
+total time : 257209
+
+[2024-01-25 19:36:40.642964] data scraping complete!
+total time : 256434
+
+[2024-01-25 20:10:57.894469] data scraping complete!
+total time : 256078
+
+[2024-01-25 20:45:14.635335] data scraping complete!
+total time : 255578
+
+[2024-01-25 21:19:31.877297] data scraping complete!
+total time : 256084
+
+[2024-01-25 21:53:49.576765] data scraping complete!
+total time : 256533
+
+[2024-01-25 22:28:06.996506] data scraping complete!
+total time : 256252
+
+[2024-01-25 23:02:28.159029] data scraping complete!
+total time : 259986
+
+[2024-01-25 23:36:45.995101] data scraping complete!
+total time : 256664
+
+[2024-01-26 00:11:02.695023] data scraping complete!
+total time : 255525
+
+[2024-01-26 00:45:19.052454] data scraping complete!
+total time : 255183
+
+[2024-01-26 01:19:36.994622] data scraping complete!
+total time : 256759
+
+[2024-01-26 01:53:54.237123] data scraping complete!
+total time : 256071
+
+[2024-01-26 02:28:11.801849] data scraping complete!
+total time : 256397
+
+[2024-01-26 03:02:29.143767] data scraping complete!
+total time : 256172
+
+[2024-01-26 03:36:45.759704] data scraping complete!
+total time : 255454
+
+[2024-01-26 04:11:02.568659] data scraping complete!
+total time : 255651
+
+[2024-01-26 04:45:19.640499] data scraping complete!
+total time : 255886
+
+[2024-01-26 05:19:36.698797] data scraping complete!
+total time : 255884
+
+[2024-01-26 05:53:53.636060] data scraping complete!
+total time : 255755
+
+[2024-01-26 06:28:11.306095] data scraping complete!
+total time : 256484
+
+[2024-01-26 07:02:28.910225] data scraping complete!
+total time : 256432
+
+[2024-01-26 07:36:46.139109] data scraping complete!
+total time : 256051
+
+[2024-01-26 08:11:03.833655] data scraping complete!
+total time : 256529
+
+[2024-01-26 08:45:21.735334] data scraping complete!
+total time : 256736
+
+[2024-01-26 09:19:38.931925] data scraping complete!
+total time : 256023
+
+[2024-01-26 09:53:56.412286] data scraping complete!
+total time : 256306
+
+[2024-01-26 10:28:13.493092] data scraping complete!
+total time : 255907
+
+[2024-01-26 11:02:30.496799] data scraping complete!
+total time : 255827
+
+[2024-01-26 11:36:48.035599] data scraping complete!
+total time : 256355
+
+[2024-01-26 12:11:04.922661] data scraping complete!
+total time : 255718
+
+[2024-01-26 12:45:22.303122] data scraping complete!
+total time : 256197
+
+[2024-01-26 13:19:40.027817] data scraping complete!
+total time : 256549
+
+[2024-01-26 13:53:57.125064] data scraping complete!
+total time : 255941
+
+[2024-01-26 14:28:14.262039] data scraping complete!
+total time : 255970
+
+[2024-01-26 15:02:32.146733] data scraping complete!
+total time : 256714
+
+[2024-01-26 15:36:48.881010] data scraping complete!
+total time : 255583
+
+[2024-01-26 16:11:05.468947] data scraping complete!
+total time : 255414
+
+[2024-01-26 16:45:22.662168] data scraping complete!
+total time : 256020
+
+[2024-01-26 17:19:40.319749] data scraping complete!
+total time : 256472
+
+[2024-01-26 17:53:57.670070] data scraping complete!
+total time : 256168
+
+[2024-01-26 18:28:14.918859] data scraping complete!
+total time : 256080
+
+[2024-01-26 19:02:32.431944] data scraping complete!
+total time : 256355
+
+[2024-01-26 19:36:49.876541] data scraping complete!
+total time : 256275
+
+[2024-01-26 20:11:07.194301] data scraping complete!
+total time : 256129
+
+[2024-01-26 20:45:25.571943] data scraping complete!
+total time : 257203
+
+[2024-01-26 21:19:43.107004] data scraping complete!
+total time : 256379
+
+[2024-01-26 21:54:00.445466] data scraping complete!
+total time : 256187
+
+[2024-01-26 22:28:18.214838] data scraping complete!
+total time : 256597
+
+[2024-01-26 23:02:37.851269] data scraping complete!
+total time : 258460
+
+[2024-01-26 23:36:54.964824] data scraping complete!
+total time : 255931
+
+[2024-01-27 00:11:11.708820] data scraping complete!
+total time : 255579
+
+[2024-01-27 00:45:28.551071] data scraping complete!
+total time : 255664
+
+[2024-01-27 01:19:44.513281] data scraping complete!
+total time : 254779
+
+[2024-01-27 01:54:01.099407] data scraping complete!
+total time : 255424
+
+[2024-01-27 02:28:17.226949] data scraping complete!
+total time : 254961
+
+[2024-01-27 03:02:34.151937] data scraping complete!
+total time : 255750
+
+[2024-01-27 03:36:50.246687] data scraping complete!
+total time : 254869
+
+[2024-01-27 04:11:06.090140] data scraping complete!
+total time : 254650
+
+[2024-01-27 04:45:24.449724] data scraping complete!
+total time : 257187
+
+[2024-01-27 05:19:41.599035] data scraping complete!
+total time : 255970
+
+[2024-01-27 05:53:58.722014] data scraping complete!
+total time : 255932
+
+[2024-01-27 06:28:16.749901] data scraping complete!
+total time : 256860
+
+[2024-01-27 07:02:34.424256] data scraping complete!
+total time : 256500
+
+[2024-01-27 07:36:51.726593] data scraping complete!
+total time : 256131
+
+[2024-01-27 08:11:09.098740] data scraping complete!
+total time : 256200
+
+[2024-01-27 08:45:26.654538] data scraping complete!
+total time : 256388
+
+[2024-01-27 09:19:44.083237] data scraping complete!
+total time : 256255
+
+[2024-01-27 09:54:01.584060] data scraping complete!
+total time : 256314
+
+[2024-01-27 10:28:18.933184] data scraping complete!
+total time : 256174
+
+[2024-01-27 11:02:36.022296] data scraping complete!
+total time : 255915
+
+[2024-01-27 11:36:53.029007] data scraping complete!
+total time : 255838
+
+[2024-01-27 12:11:10.028663] data scraping complete!
+total time : 255818
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 199, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 53, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-27 13:21:11.740288] data scraping complete!
+total time : 256360
+
+[2024-01-27 13:55:29.346749] data scraping complete!
+total time : 256433
+
+[2024-01-27 14:29:46.463838] data scraping complete!
+total time : 255932
+
+[2024-01-27 15:04:03.858348] data scraping complete!
+total time : 256196
+
+[2024-01-27 15:38:21.404813] data scraping complete!
+total time : 256381
+
+[2024-01-27 16:12:39.217888] data scraping complete!
+total time : 256647
+
+[2024-01-27 16:46:56.566136] data scraping complete!
+total time : 256162
+
+[2024-01-27 17:21:13.886423] data scraping complete!
+total time : 256146
+
+[2024-01-27 17:55:30.878433] data scraping complete!
+total time : 255821
+
+[2024-01-27 18:29:48.292213] data scraping complete!
+total time : 256227
+
+[2024-01-27 19:04:05.921853] data scraping complete!
+total time : 256455
+
+[2024-01-27 19:38:23.286459] data scraping complete!
+total time : 256178
+
+[2024-01-27 20:12:40.676930] data scraping complete!
+total time : 256233
+
+[2024-01-27 20:46:57.910086] data scraping complete!
+total time : 256076
+
+[2024-01-27 21:21:15.294610] data scraping complete!
+total time : 256213
+
+[2024-01-27 21:55:32.551780] data scraping complete!
+total time : 256085
+
+[2024-01-27 22:29:49.662165] data scraping complete!
+total time : 255920
+
+[2024-01-27 23:04:08.905864] data scraping complete!
+total time : 258067
+
+[2024-01-27 23:38:26.226291] data scraping complete!
+total time : 256144
+
+[2024-01-28 00:12:43.246510] data scraping complete!
+total time : 255823
+
+[2024-01-28 00:46:59.818140] data scraping complete!
+total time : 255393
+
+[2024-01-28 01:21:16.104275] data scraping complete!
+total time : 255097
+
+[2024-01-28 01:55:32.449109] data scraping complete!
+total time : 255178
+
+[2024-01-28 02:29:48.830594] data scraping complete!
+total time : 255220
+
+[2024-01-28 03:04:05.920217] data scraping complete!
+total time : 255475
+
+[2024-01-28 03:38:24.476766] data scraping complete!
+total time : 256111
+
+[2024-01-28 04:12:42.659841] data scraping complete!
+total time : 256099
+
+[2024-01-28 04:47:00.308031] data scraping complete!
+total time : 256473
+
+[2024-01-28 05:21:17.611442] data scraping complete!
+total time : 256124
+
+[2024-01-28 05:55:35.654231] data scraping complete!
+total time : 256871
+
+[2024-01-28 06:29:52.913027] data scraping complete!
+total time : 256038
+
+[2024-01-28 07:04:09.961015] data scraping complete!
+total time : 255878
+
+[2024-01-28 07:38:27.826944] data scraping complete!
+total time : 256691
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "wc_seoul_bus.py", line 199, in <module>
+    api_request()
+  File "wc_seoul_bus.py", line 53, in api_request
+    response = requests.get(api_url, params=params, headers=hdr)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2024-01-28 08:49:36.125722] data scraping complete!
+total time : 256300
+
+[2024-01-28 09:23:53.862025] data scraping complete!
+total time : 256554
+
+[2024-01-28 09:58:11.129714] data scraping complete!
+total time : 256094
+
+[2024-01-28 10:32:28.537953] data scraping complete!
+total time : 256216
+
+[2024-01-28 11:06:46.410450] data scraping complete!
+total time : 256692
+
+[2024-01-28 11:41:03.793255] data scraping complete!
+total time : 256209
+
+[2024-01-28 12:15:21.023060] data scraping complete!
+total time : 256055
+
+[2024-01-28 12:49:38.535787] data scraping complete!
+total time : 256330
+
+[2024-01-28 13:23:56.024700] data scraping complete!
+total time : 256316
+
+[2024-01-28 13:58:13.473832] data scraping complete!
+total time : 256266
+
+[2024-01-28 14:32:30.582944] data scraping complete!
+total time : 255968
+
+[2024-01-28 15:06:47.717750] data scraping complete!
+total time : 255952
+
+[2024-01-28 15:41:05.322664] data scraping complete!
+total time : 256414
+
+[2024-01-28 16:15:22.432691] data scraping complete!
+total time : 255931
+
+[2024-01-28 16:49:40.062918] data scraping complete!
+total time : 256460
+
+[2024-01-28 17:23:57.415350] data scraping complete!
+total time : 256176
+
+[2024-01-28 17:58:14.697890] data scraping complete!
+total time : 256108
+
+[2024-01-28 18:32:32.494283] data scraping complete!
+total time : 256621
+
+[2024-01-28 19:06:49.715521] data scraping complete!
+total time : 256039
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-28 19:41:07.395901] data scraping complete!
+total time : 256513
+
+[2024-01-28 20:15:24.487770] data scraping complete!
+total time : 255928
+
+[2024-01-28 20:49:42.037760] data scraping complete!
+total time : 256366
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-28 21:24:00.486888] data scraping complete!
+total time : 257272
+
+[2024-01-28 21:58:18.110487] data scraping complete!
+total time : 256451
+
+[2024-01-28 22:32:38.891515] data scraping complete!
+total time : 259598
+
+[2024-01-28 23:06:56.555585] data scraping complete!
+total time : 256498
+
+[2024-01-28 23:41:13.776515] data scraping complete!
+total time : 256065
+
+[2024-01-29 00:15:30.558219] data scraping complete!
+total time : 255606
+
+[2024-01-29 00:49:46.548093] data scraping complete!
+total time : 254810
+
+[2024-01-29 01:24:02.709387] data scraping complete!
+total time : 254995
+
+[2024-01-29 01:58:19.496500] data scraping complete!
+total time : 255611
+
+[2024-01-29 02:32:36.710230] data scraping complete!
+total time : 256050
+
+[2024-01-29 03:06:53.243740] data scraping complete!
+total time : 255370
+
+[2024-01-29 03:41:10.262641] data scraping complete!
+total time : 255830
+
+[2024-01-29 04:15:27.465345] data scraping complete!
+total time : 256031
+
+[2024-01-29 04:49:45.424785] data scraping complete!
+total time : 256771
+
+[2024-01-29 05:24:03.174654] data scraping complete!
+total time : 256569
+
+[2024-01-29 05:58:20.768581] data scraping complete!
+total time : 256427
+
+[2024-01-29 06:32:38.270246] data scraping complete!
+total time : 256326
+
+[2024-01-29 07:06:56.249062] data scraping complete!
+total time : 256809
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-29 07:41:13.794723] data scraping complete!
+total time : 256350
+
+[2024-01-29 08:15:31.865313] data scraping complete!
+total time : 256901
+
+[2024-01-29 08:49:50.517148] data scraping complete!
+total time : 257486
+
+[2024-01-29 09:24:07.549960] data scraping complete!
+total time : 255873
+
+[2024-01-29 09:58:24.935362] data scraping complete!
+total time : 256231
+
+[2024-01-29 10:32:42.529622] data scraping complete!
+total time : 256442
+
+[2024-01-29 11:07:00.075996] data scraping complete!
+total time : 256374
+
+[2024-01-29 11:41:17.118443] data scraping complete!
+total time : 255868
+
+[2024-01-29 12:15:34.505341] data scraping complete!
+total time : 256201
+
+[2024-01-29 12:49:51.769158] data scraping complete!
+total time : 256093
+
+[2024-01-29 13:24:08.983213] data scraping complete!
+total time : 256037
+
+[2024-01-29 13:58:25.846956] data scraping complete!
+total time : 255684
+
+[2024-01-29 14:32:42.823228] data scraping complete!
+total time : 255806
+
+[2024-01-29 15:06:59.430880] data scraping complete!
+total time : 255448
+
+OrderedDict([('ServiceResult', OrderedDict([('comMsgHeader', None), ('msgHeader', OrderedDict([('headerCd', '7'), ('headerMsg', 'Key인증실패: LIMITED NUMBER OF SERVICE REQUESTS EXCEEDS ERROR.[인증모듈 에러코드(22)]'), ('itemCount', '0')])), ('msgBody', None)]))])
+[2024-01-29 15:41:16.530526] data scraping complete!
+total time : 255921
+
+[2024-01-29 16:15:34.089729] data scraping complete!
+total time : 256393
+
+[2024-01-29 16:49:51.167385] data scraping complete!
+total time : 255886
+
+[2024-01-29 17:24:07.895954] data scraping complete!
+total time : 255552
+
+[2024-01-29 17:58:25.389164] data scraping complete!
+total time : 256325
+
+[2024-01-29 18:32:42.558522] data scraping complete!
+total time : 255986
+
+[2024-01-29 19:06:59.973557] data scraping complete!
+total time : 256246
+
+[2024-01-29 19:41:17.489532] data scraping complete!
+total time : 256335
+
+[2024-01-29 20:15:34.919773] data scraping complete!
+total time : 256252
+
+[2024-01-29 20:49:51.468210] data scraping complete!
+total time : 255393
+
+[2024-01-29 21:24:08.704460] data scraping complete!
+total time : 256067
+
+[2024-01-29 21:58:25.937637] data scraping complete!
+total time : 256050
+
+[2024-01-29 22:32:45.664503] data scraping complete!
+total time : 258554
+
+[2024-01-29 23:07:03.535228] data scraping complete!
+total time : 256712
+
+[2024-01-29 23:41:20.464144] data scraping complete!
+total time : 255753
+
+[2024-01-30 00:15:36.706478] data scraping complete!
+total time : 255076
+
+[2024-01-30 00:49:52.647315] data scraping complete!
+total time : 254772
+
+[2024-01-30 01:24:08.722907] data scraping complete!
+total time : 254909
+
+[2024-01-30 01:58:24.976794] data scraping complete!
+total time : 255079
+
+[2024-01-30 02:32:41.054117] data scraping complete!
+total time : 254910
+
+[2024-01-30 03:06:57.558328] data scraping complete!
+total time : 255321
+
+[2024-01-30 03:41:13.184653] data scraping complete!
+total time : 254413
+
+[2024-01-30 04:15:29.831483] data scraping complete!
+total time : 255473
+
+[2024-01-30 04:49:47.027142] data scraping complete!
+total time : 256006
+
+[2024-01-30 05:24:05.553819] data scraping complete!
+total time : 257346
+
+[2024-01-30 05:58:23.354628] data scraping complete!
+total time : 256617
+
+[2024-01-30 06:32:40.799705] data scraping complete!
+total time : 256274
+
+[2024-01-30 07:06:59.145585] data scraping complete!
+total time : 257181
+
+[2024-01-30 07:41:16.929117] data scraping complete!
+total time : 256608
+
+[2024-01-30 08:15:35.334525] data scraping complete!
+total time : 257231
+
+[2024-01-30 08:49:52.986295] data scraping complete!
+total time : 256480
+
+[2024-01-30 09:24:10.636812] data scraping complete!
+total time : 256476
+
+[2024-01-30 09:58:27.931577] data scraping complete!
+total time : 256121
+
+[2024-01-30 10:32:45.099691] data scraping complete!
+total time : 255988
+
+[2024-01-30 11:07:02.681843] data scraping complete!
+total time : 256420
+
+[2024-01-30 11:41:19.822646] data scraping complete!
+total time : 255976
+
+[2024-01-30 12:15:37.367138] data scraping complete!
+total time : 256321
+
+[2024-01-30 12:49:54.788410] data scraping complete!
+total time : 256223
+
+[2024-01-30 13:24:12.227119] data scraping complete!
+total time : 256260
+
+[2024-01-30 13:58:29.446785] data scraping complete!
+total time : 256047
+
+[2024-01-30 14:32:46.743263] data scraping complete!
+total time : 256127
+
+[2024-01-30 15:07:04.115082] data scraping complete!
+total time : 256201
+
+[2024-01-30 15:41:21.409254] data scraping complete!
+total time : 256129
+
+[2024-01-30 16:15:38.438839] data scraping complete!
+total time : 255871
+
