@@ -30,12 +30,12 @@ while True:
         print('2. 출퇴근 시간을 포함한 전처리 데이터 만들기')
         prepro_check = int(input('>> '))
 
-        if prepro_check != 1 | prepro_check != 2:
+        if prepro_check != 1 & prepro_check != 2:
             print('잘못 입력했습니다.')
             continue
 
         print('전처리를 시작합니다.')
-        LMT.data_preprocessing(path=path, prepro_check=prepro_check)
+        LMT.data_preprocessing(path_relative=path, prepro_check=prepro_check)
     elif check == 2:
         LMT.data_save()
     elif check == 3:

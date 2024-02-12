@@ -20,12 +20,15 @@ class Bus:
         self.result = None
 
     # 버스 혼잡도 csv파일 전처리 과정
-    def data_preprocessing(self, path, prepro_check):
-        main_data = pd.read_csv('../data/' + os.listdir(path)[0], names=['계절', '시간', '버스', '정류장', '혼잡도',
-                                                                         '평휴일', '이전휴일수', '이후휴일수'])
+    def data_preprocessing(self, path_relative, prepro_check):
+        path = os.path.abspath(path_relative)
+        print(path)
+        print(os.listdir(path))
+        main_data = pd.read_csv(path + '/' + os.listdir(path)[0], names=['계절', '시간', '버스', '정류장', '혼잡도',
+                                                            '평휴일', '이전휴일수', '이후휴일수'])
         for i in os.listdir(path)[1:]:
-            temp_data = pd.read_csv(path + i, names=['계절', '시간', '버스', '정류장', '혼잡도',
-                                                     '평휴일', '이전휴일수', '이후휴일수'])
+            temp_data = pd.read_csv(path + '/' + i, names=['계절', '시간', '버스', '정류장', '혼잡도',
+                                              '평휴일', '이전휴일수', '이후휴일수'])
             main_data = pd.concat([main_data, temp_data], axis=0, ignore_index=True)
             print(i + '파일을 읽는 중 입니다.')
 
@@ -49,6 +52,7 @@ class Bus:
             self.data_result()
         else:
             print('전처리 과정에서 문제가 발생했습니다.')
+            self.data_result()
 
     def data_result(self):
         check_label = [0 for i in range(100)]
@@ -59,8 +63,9 @@ class Bus:
 
         print('총 데이터의 양: ' + str(len(self.X_train) + len(self.X_test)))
         print('학습용 데이터의 양: ' + str(len(self.X_train)))
-        print('테스트용 데이터의 양' + str(len(self.X_test)))
-        print('\n라벨링 개수')
+        print('테스트용 데이터의 양: ' + str(len(self.X_test)))
+        print('라벨링 데이터의 양: '+ str(len(self.y_train) + len(self.y_test)))
+        print('\n라벨링 개수\n\n')
         for i in range(len(check_label)):
             if check_label[i] == 0:
                 continue
@@ -81,17 +86,20 @@ class Bus:
             print('파일이 저장되었습니다.\n저장 위치: data/preprocessing/y_test' + time_now)
 
     def data_check(self):
-        if (len(self.X_train) == len(self.y_train)) | (len(self.X_test) == len(self.y_test)) | \
-                (len(self.X_train) == 0) | (len(self.y_train) == 0) | \
-                (len(self.X_test) == 0) | (len(self.y_test) == 0):
+        try:
+            if (len(self.X_train) == len(self.y_train)) | (len(self.X_test) == len(self.y_test)) | \
+                    (len(self.X_train) == 0) | (len(self.y_train) == 0) | \
+                    (len(self.X_test) == 0) | (len(self.y_test) == 0):
+                return False
+            return True
+        except TypeError:
             return False
-        return True
 
     # 모델 설계 과정
     def model_design(self):
         K.clear_session()
         xinput = Input(batch_shape=(None, self.X_train.shape[1], self.X_train.shape[2]))
-        xlstm_1 = LSTM(len(self.X_train), return_sequences=True)(xinput)
+        xlstm_1 = LSTM(10, return_sequences=True)(xinput)
         xlstm_2 = Bidirectional(LSTM(len(self.X_train)))(xlstm_1)
         xoutput = Dense(1)(xlstm_2)
         self.model = Model(xinput, xoutput)
